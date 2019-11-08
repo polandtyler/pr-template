@@ -21,6 +21,7 @@ javascript:(function() {
       '[](url)',
       `## Dev Checklist 
       - [ ] Tested against both renter and owner (if applicable)
+      - [ ] Tested on a physical device
       - [ ] Analytics added
       - [ ] All strings extrapolated into localized strings file
       - [ ] Comments removed
