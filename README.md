@@ -16,24 +16,4 @@ NOTE: If you make a change to the content of the bookmarklet, please replace the
 3. Description will be filled in with the template info from below
 
 ## Example:
-```
-## Purpose
-
-### Asana Link
-
-[](url)
-
-## Dev Checklist
-- [ ] Tested against both renter and owner (if applicable)
-- [ ] Analytics added
-- [ ] All strings extrapolated into localized strings file
-- [ ] Comments removed
-- [ ] Test data prepped for reviewers (if applicable)
-- [ ] Code has been cleaned up
-- [ ] Backmerged the `develop` branch into this one
-
-## Testing
-
-## Screenshots
-...
-```
+![example-pr](https://user-images.githubusercontent.com/3914742/68517439-37cadb00-024d-11ea-8955-0b78e6396921.png)
