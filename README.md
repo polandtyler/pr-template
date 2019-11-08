@@ -14,3 +14,26 @@ NOTE: If you make a change to the content of the bookmarklet, please replace the
 1. Open a new PR
 2. Once you get to the details step, place your cursor in the comment box and click the bookmarklet link
 3. Description will be filled in with the template info from below
+
+## Example:
+```
+## Purpose
+
+### Asana Link
+
+[](url)
+
+## Dev Checklist
+- [ ] Tested against both renter and owner (if applicable)
+- [ ] Analytics added
+- [ ] All strings extrapolated into localized strings file
+- [ ] Comments removed
+- [ ] Test data prepped for reviewers (if applicable)
+- [ ] Code has been cleaned up
+- [ ] Backmerged the `develop` branch into this one
+
+## Testing
+
+## Screenshots
+...
+```
