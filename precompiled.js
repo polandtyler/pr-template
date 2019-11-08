@@ -15,16 +15,19 @@ NOTE: If you make a change to the content of the bookmarklet, please replace the
 */
    // PRE-COMPILED
 javascript:(function() {
-    var reminders = ['- Did the README need to be updated? **yes / no**', '- Did you test your view changes in all the appropriate devices? (S, Plus, and X simulators)  **yes / no / n/a**', '- Did you add Automated User Tests (AUT)? **yes / no / n/a**', '- Did you add a feature toggle? **yes / no / n/a**', '- Did you add unit tests for all public functions? **yes / no / n/a**', '- Did you test on an actual device? **yes / no / n/a**', '- Did a PO review your changes? **yes / no / n/a**'];
     var template = [
-      '### Purpose', '...',
-      '### User Story / Defect Link',
-      '(Link)[url]',
-      '#### How to Test',
-      '###### Which Environment?',
-      '###### Which user ID should I use?',
-      '###### How do I navigate there?',
-      '###### What do I need to validate?',
+      '## Purpose', '...',
+      '## User Story / Defect Link',
+      '[](url)',
+      `## Dev Checklist 
+      - [ ] Tested against both renter and owner (if applicable)
+      - [ ] Analytics added
+      - [ ] All strings extrapolated into localized strings file
+      - [ ] Comments removed
+      - [ ] Test data prepped for reviewers (if applicable)
+      - [ ] Code has been cleaned up
+      - [ ] Backmerged the \`develop\` branch into this one`,
+      '## Testing',
       '#### Screenshots',
       '...'
    ];
